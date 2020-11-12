@@ -1,0 +1,15 @@
+{
+  "name": "stickmanama",
+  "version": "1.0.0",
+  "description": "A simple Telegram Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gem",
+  "license": "ISC",
+  "dependencies": {
+    "botgram": "^2.2.0",
+    "figlet": "^1.5.0"
+  }
+}
