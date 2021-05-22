@@ -4,7 +4,7 @@ const figlet = require('figlet');
 const { TELEGRAM_BOT_API } = process.env;
 
 if (!TELEGRAM_BOT_API) {
-    console.error('Seems like you forgot to pass Telegram Bot Token. I can not proceed...');
+    console.error('Theo, you forgot your Telegram Bot Token. That will be a problem.');
     process.exit(1);
 }
 
